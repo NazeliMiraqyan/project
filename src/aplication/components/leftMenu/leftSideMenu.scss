@@ -1,0 +1,152 @@
+.menu{
+    width: 160px;
+    height: 100vh;
+    background: #FFE4D6;
+   
+    ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 63.5px;
+       
+        .menuIcones{
+            margin-top: 63.5px;
+            list-style-type: none;
+            
+            .iconOne{
+                width: 48px;
+                height: 44px;
+                display: flex;
+                flex-direction: column;
+               
+                #img1{
+                    width: 22px;
+                    height: 32px;
+                    padding-right: 4px;
+                    
+                }
+
+                #img2{
+                    width: 48px;
+                    height: 12px;
+                    
+                }
+                .minIcones{
+                    position: relative;
+                    padding: 0;
+                    margin: 0;
+                    #img3{
+                        position: absolute;
+                        width: 22px;
+                        max-height: 14px;
+                       
+                    }
+                    #img4{
+                        top: 18px;
+                        position: absolute;
+                    }
+                }  
+            }
+            .iconTwo{
+                width: 36px;
+                height: 42px;
+                text-align: center;
+                position: relative;
+
+                #img5{
+                    width: 18px;
+                    position: absolute;
+                    left: 9px;
+                    top: -6px;
+                }
+                #img6{
+                   max-width: 100%;
+                  
+                }
+            }
+            .users{
+               
+                .head{
+                    position: relative;
+                    text-align: center;
+                    top: 3.11px;
+                    .head1{
+                        width: 10.31px;
+                        height: 10.31px;
+                    }
+                    #head2{
+                        width: 16.31px;
+                        height: 16.31px;
+                    }
+                    #head1{
+                        width: 10.31px;
+                        height: 10.31px;
+                    }
+                }
+                .body{
+                
+                    #body2{
+                        width: 25.4px;
+                        height: 22.45px;
+                    }
+                    #body3{
+                        width: 12.58px;
+                        height: 19.34px;
+                    }
+                }
+            }
+            .icones{
+               &:nth-child(2){
+                    padding-top: 72px;
+                    padding-bottom: 75.6px;
+                }
+            }
+        }
+    }
+    
+    .getColor{
+        svg path{
+            fill:#8964D7
+          }
+        div{
+            img{
+                opacity: 1 !important;
+            }
+           
+            
+        }
+             
+    }
+    @media screen and(max-width:1068px){
+    
+        width: 100px;
+        padding-left: 26px;
+        padding-right: 26px;
+
+        .menuIcones{
+            .body{
+                width: 55px;
+            }
+        }
+
+        .getColor{
+            div{
+                img{
+                    opacity: 0 !important;
+                }
+               
+                
+            }
+      
+    }
+  
+    }
+    @media screen and (max-width: 870px){
+            width: 100px;
+            padding-left: 26px;
+            padding-right: 26px;        
+    }
+
+   
+}

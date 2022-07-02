@@ -1,0 +1,139 @@
+.items{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+
+    @mixin font {
+        font-family: 'Montserrat';
+        font-style: normal;
+    }
+    .title{
+    
+        @include font;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 59px;
+        line-height: 100%;
+        padding-top: 64px;
+        padding-bottom: 71px;
+        color: #000000;
+    }
+
+    .pages{
+        
+        ul{
+            display: flex;
+
+            li{
+                
+                list-style-type: none;
+                padding-right: 48px;
+                
+                button{
+                    text-transform: capitalize;
+                    @include font;
+                    font-weight: 700;
+                    padding-top: 90px;
+                    padding-bottom: 83px;
+                    font-size: 24px;
+                    cursor: pointer;
+                    color: #CBB1A2;
+                    background: none;
+                    border: none;
+
+                   
+                }
+               
+            }
+           
+        }
+        
+    }
+    .active{
+        color: #6749A5 !important;
+
+    }
+    @media screen and (max-width: 1270px){
+        
+        .pages{
+        
+            ul{
+                li{
+                   
+                    button{
+                       
+                        padding-top: 68px;
+                        padding-bottom: 57px;
+                        
+                    }
+                   
+                }
+               
+            }
+            
+        }
+        
+    }
+    @media screen and (max-width: 1034px){
+        display: block;
+        margin-left: 32px;
+        .title{
+            padding-bottom: 0;
+            font-size: 48px;
+            padding-top: 79px;
+            line-height: 59px;
+        }
+        .pages{
+        
+            ul{
+                li{
+                   
+                    button{
+                       
+                        padding-top: 16px;
+                        padding-bottom: 57px;
+                        
+                    }
+                   
+                }
+               
+            }
+            
+        }
+         
+     }
+
+    @media screen and (max-width: 741px){
+        display: block;
+
+        margin-left: 32px;
+
+        .title{
+           padding-bottom: 0;
+           font-size: 48px;
+           padding-top: 79px;
+           line-height: 59px;
+        }
+        .pages{
+            ul{
+                li{
+                    padding-right: 35px;
+                    button{
+
+                        padding-top: 17px;
+                        padding-bottom: 57px;
+                    }
+                }
+            }
+        }
+      
+     
+    }
+}
+.active{
+    color:#8964D7;
+}
+

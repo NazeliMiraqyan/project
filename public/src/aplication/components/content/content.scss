@@ -1,0 +1,214 @@
+
+
+.cntent{
+    max-width: 1345px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+    
+    .categoryImg{
+        width: 1345rem;
+        height: 544px;
+        border-radius: 24px;  
+        object-fit: cover;
+    }
+    @mixin text{
+        position: absolute;
+        font-style: medium;
+     
+    }
+    p{
+        font-family: 'Montserrat';
+        color:#FFFFFF;
+        line-height: 20px;
+        
+    }
+    .top-left{
+        @include text;
+        top: 42px;
+        left: 42px;
+        font-size: 24px;
+        line-height: 29.6px;
+    }
+    .top-left-bottom{
+        @include text;
+        top: 82px;
+        left: 42px;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+    .top-right {
+        position: absolute;
+        top: 42px;
+        right: 96px;
+        font-size: 24px;
+        line-height: 29.26px;
+      }
+    .bottom-left{
+        width: 84px;
+        height: 75px;
+        text-align: center;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 64px;
+        left: 42px;
+        background-color: rgba(255, 255, 255, 0.4);
+
+        .bottom-left-img{
+            width: 19.3px;
+            height: 24px;
+            margin-top: 18.72px;
+
+        }
+    }
+    @media screen and (max-width: 1186px){
+        margin-left:31px;
+        margin-right:31px;
+        .categoryImg{
+            max-width: 900px;
+            height: 350px;
+            margin-top: 18.72;
+        }
+    }
+    @media screen and (max-width: 1270px){
+       
+       
+        .categoryImg{
+            max-width: 900px;
+            height: 350px;
+            margin-top: 18.72;
+        }
+    }
+    @media screen and (max-width: 1034px){
+        margin-left:31px;
+        margin-right:31px;
+        margin-bottom: 64px;
+       
+        .categoryImg{
+            max-width: 900px;
+            height: 320px;
+            margin-top: 18.72;
+        }
+        .top-right { 
+            top: 21px;
+            right: 21px;
+            
+        }
+        .top-left{
+            top: 21px;
+            left: 21px;
+        }
+        .top-left-bottom{
+            top: 44px;
+            left: 21px;
+            line-height: 20px;
+        }
+        .top-right {
+            top: 21px;
+            right: 42px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+    }
+    
+    @media screen and (max-width: 741px){
+      
+        margin-left:21px;
+        margin-bottom: 64px;
+        width: 599px;
+        height: 274px;
+
+        .categoryImg{
+            max-width: 599px;
+            height: 274px;
+            margin-top: 18.72;
+        }
+        .bottom-left{
+            width: 58px;
+            height: 54px;
+            bottom: 32px;
+            left: 19px;
+            .bottom-left-img{
+                width: 13.33px;
+                height: 17.28px;
+               
+            }
+        }
+       
+        .top-right { 
+            top: 21px;
+            right: 21px;
+            
+        }
+        .top-left{
+            top: 21px;
+            left: 21px;
+        }
+        .top-left-bottom{
+            top: 44px;
+            left: 21px;
+            line-height: 20px;
+        }
+        .top-right {
+            top: 21px;
+            right: 42px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+     
+    }
+    @media screen and (max-width: 735px){
+        max-width: 590px;
+        height: 274px;
+        
+        margin-bottom: 64px;
+        
+
+        .categoryImg{
+            width: 590px;
+            height: 274px;
+            margin-top: 18.72;
+        }
+        .bottom-left{
+            width: 58px;
+            height: 54px;
+            bottom: 32px;
+            left: 19px;
+            .bottom-left-img{
+                width: 13.33px;
+                height: 17.28px;
+               
+            }
+        }
+       
+        .top-right { 
+            top: 21px;
+            right: 21px;
+            
+        }
+        .top-left{
+            top: 21px;
+            left: 21px;
+        }
+        .top-left-bottom{
+            top: 44px;
+            left: 21px;
+            line-height: 20px;
+        }
+        .top-right {
+            top: 21px;
+            right: 42px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+     
+    }
+
+
+}
+
+
